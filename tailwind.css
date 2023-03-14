@@ -3,11 +3,11 @@
 @tailwind components;
 
 :root {
-  --primary: #0cb469;
-  --secondary: #3a3a3a;
-  --ternary: #414141;
-  --background: #292929;
-  --card: #333333;
+  --primary: #fabd2f;
+  --secondary: #323233;
+  --ternary: #282828;
+  --background: #1c2121;
+  --card: #282828;
 }
 
 html {

@@ -525,8 +525,24 @@ video {
   border-width: 0;
 }
 
+.fixed {
+  position: fixed;
+}
+
+.absolute {
+  position: absolute;
+}
+
 .relative {
   position: relative;
+}
+
+.sticky {
+  position: sticky;
+}
+
+.top-0 {
+  top: 0px;
 }
 
 .mb-0 {
@@ -565,6 +581,18 @@ video {
   margin-top: 1.5rem;
 }
 
+.mt-20 {
+  margin-top: 5rem;
+}
+
+.mt-40 {
+  margin-top: 10rem;
+}
+
+.block {
+  display: block;
+}
+
 .inline-block {
   display: inline-block;
 }
@@ -589,8 +617,29 @@ video {
   height: 100%;
 }
 
+.max-h-\[750px\] {
+  max-height: 750px;
+}
+
+.max-h-\[300px\] {
+  max-height: 300px;
+}
+
 .w-11 {
   width: 2.75rem;
+}
+
+.w-fit {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.w-auto {
+  width: auto;
 }
 
 .min-w-full {
@@ -603,6 +652,14 @@ video {
 
 .max-w-\[300px\] {
   max-width: 300px;
+}
+
+.max-w-\[750px\] {
+  max-width: 750px;
+}
+
+.max-w-\[264px\] {
+  max-width: 264px;
 }
 
 .scale-75 {
@@ -639,6 +696,10 @@ video {
   gap: 1.5rem;
 }
 
+.overflow-auto {
+  overflow: auto;
+}
+
 .overflow-hidden {
   overflow: hidden;
 }
@@ -653,6 +714,14 @@ video {
 
 .whitespace-nowrap {
   white-space: nowrap;
+}
+
+.break-words {
+  overflow-wrap: break-word;
+}
+
+.break-all {
+  word-break: break-all;
 }
 
 .rounded-full {
@@ -772,12 +841,20 @@ video {
   padding-top: 0.5rem;
 }
 
+.pt-20 {
+  padding-top: 5rem;
+}
+
 .text-left {
   text-align: left;
 }
 
 .text-center {
   text-align: center;
+}
+
+.text-right {
+  text-align: right;
 }
 
 .font-roboto {
@@ -802,6 +879,16 @@ video {
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .font-bold {
@@ -841,11 +928,11 @@ video {
 }
 
 :root {
-  --primary: #0cb469;
-  --secondary: #3a3a3a;
-  --ternary: #414141;
-  --background: #292929;
-  --card: #333333;
+  --primary: #fabd2f;
+  --secondary: #323233;
+  --ternary: #282828;
+  --background: #1c2121;
+  --card: #282828;
 }
 
 html {
